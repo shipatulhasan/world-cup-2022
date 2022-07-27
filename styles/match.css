@@ -256,7 +256,7 @@ li a{
     }
     
 }
-@media (max-width:992px) {
+@media (max-width:991.5px) {
     .wrapper{
         grid-template-rows: 1fr auto auto .5fr;
         gap: 30px 0px;
@@ -286,6 +286,9 @@ li a{
     .menu-btn a {
         width: 188px;
     }
+    .matches {
+        grid-template-columns: repeat(2, 1fr);
+    }
     .footer-nav ul {
         flex-flow: wrap;
         gap: 10px 60px;
@@ -297,9 +300,7 @@ li a{
         padding: 8px;
         font-size: 14px;
     }
-    .matches {
-        grid-template-columns: repeat(2, 1fr);
-    }
+   
     .title{
         font-size: 95%;
     }
